@@ -12,23 +12,23 @@ Algoritmo ejercicio_9
 	Dimension array1[long], array2[long], arrayResultado[long];
 	
 	Escribir "Introduce los elementos del primer arreglo: ";
-	Para i = 0 Hasta long-1 Hacer
+	Para i = 0 Hasta long-1 Con Paso 1 Hacer
 		Escribir "Elemento ", i+1, ": ";
 		Leer array1[i];
 	FinPara
 	
 	Escribir "Introduce los elementos del segundo arreglo:";
-    Para i = 0 Hasta long-1 Hacer
+    Para i = 0 Hasta long-1 Con Paso 1 Hacer
         Escribir "Elemento ", i+1, ": ";
         Leer array2[i];
     Fin Para
 	
-	Para i = 0 Hasta long-1 Hacer
+	Para i = 0 Hasta long-1 Con Paso 1 Hacer
         arrayResultado[i] = array1[i] + array2[i];
     Fin Para
 	
 	Escribir "La suma de ambos arreglos es: ";
-    Para i = 0 Hasta long-1 Hacer
+    Para i = 0 Hasta long-1 Con Paso 1 Hacer
         Escribir "Elemento ", i+1, ": ", arrayResultado[i];
     Fin Para
 	
